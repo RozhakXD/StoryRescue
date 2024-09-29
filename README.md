@@ -37,7 +37,7 @@ Jika Anda sudah memiliki Python dan pustaka tersebut, Anda siap menjalankan skri
     ```bash
     python Run.py
     ```
-4. **Masukkan Cookies Instagram**: Ketika diminta, masukkan cookies yang valid dari akun Instagram Anda. Contohnya:
+4. **Masukkan Cookies Instagram**: Ketika diminta untuk, masukkan cookies yang valid dari akun Instagram Anda. Contohnya:
     ```css
     [?] Your Cookies: sessionid=xxxxxxxxxxxxxxxxxxxx
     ```
