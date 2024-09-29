@@ -1,4 +1,4 @@
-# StoryRescue
+# StoryRescue - Pengunduh Arsip Story Instagram
 [![Python3](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -63,9 +63,9 @@ Jika Anda sudah memiliki Python dan pustaka tersebut, Anda siap menjalankan skri
 - **Keamanan**: Jangan membagikan cookies atau kredensial akun Instagram Anda secara publik.
 
 ## Troubleshooting
+- **Masalah Akun Terlogout**: Jika akun Anda terlogout saat menggunakan skrip, Anda bisa menggunakan **MODE DEKSTOP** di browser untuk mendapatkan kembali cookies yang valid. Pastikan juga akun Anda **ONLINE** di browser tersebut sebelum mengambil cookies baru.
 - **Masalah Login**: Jika skrip menampilkan pesan "Login Diperlukan!", itu berarti cookies yang Anda masukkan tidak valid atau telah kadaluwarsa. Pastikan untuk mendapatkan cookies baru dari akun Instagram Anda.
 - **Pengunduhan Terputus**: Jika pengunduhan gagal, cek kembali koneksi internet Anda atau pastikan Instagram tidak sedang mengalami masalah.
-- **Masalah Akun Terlogout**: Jika akun Anda terlogout saat menggunakan skrip, Anda bisa menggunakan **MODE DEKSTOP** di browser untuk mendapatkan kembali cookies yang valid. Pastikan juga akun Anda **ONLINE** di browser tersebut sebelum mengambil cookies baru.
 
 ## Tangkapan Layar
 ![FunPic_20240929-1](https://github.com/user-attachments/assets/775f3ae9-7f42-4c8d-988a-cbf58b574bf6)
