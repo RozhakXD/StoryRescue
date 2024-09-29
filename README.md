@@ -7,11 +7,11 @@
 **StoryRescue** adalah alat otomatis untuk mengumpulkan dan mengunduh arsip Story dan Reel Instagram menggunakan Python. Sangat berguna untuk menyimpan konten dari Instagram sebelum fitur arsip dihapus.
 
 ## Fitur Utama
+- **Manajemen Kesalahan**: Skrip dilengkapi dengan mekanisme untuk menangani kesalahan seperti kesalahan koneksi atau permintaan yang gagal.
+- **Pengunduhan Gambar dan Video**: Mendukung pengunduhan gambar dalam format `jpg` dan video dalam format `mp4`.
 - **Pengumpulan Arsip Story & Reel**: Skrip ini dapat mengakses arsip Instagram untuk mengumpulkan daftar Story dan Reel.
 - **Penyimpanan Otomatis**: Hasil unduhan secara otomatis disimpan ke dalam folder yang Anda pilih.
-- **Pengunduhan Gambar dan Video**: Mendukung pengunduhan gambar dalam format `jpg` dan video dalam format `mp4`.
 - **Mode Pilihan Video**: Anda dapat memilih untuk menyertakan atau mengabaikan video saat mengunduh arsip.
-- **Manajemen Kesalahan**: Skrip dilengkapi dengan mekanisme untuk menangani kesalahan seperti kesalahan koneksi atau permintaan yang gagal.
 
 ## Prasyarat
 Sebelum Anda menjalankan skrip ini, pastikan Anda telah memenuhi persyaratan berikut:
