@@ -16,10 +16,10 @@
 ## Prasyarat
 Sebelum Anda menjalankan skrip ini, pastikan Anda telah memenuhi persyaratan berikut:
 
-- **Python 3.x**: Pastikan Python versi 3.x sudah terinstal di sistem Anda. Jika belum, Anda bisa mengunduhnya dari [situs resmi Python](https://www.python.org/downloads/).
-- **Pustaka Python yang Diperlukan**: Anda perlu menginstal beberapa pustaka Python untuk menjalankan skrip ini:
-    - **requests**: Untuk mengirim dan menerima permintaan HTTP dari Instagram.
-    - **rich**: Untuk menampilkan output berwarna dan lebih rapi di terminal.
+- **Pustaka Python yang Diperlukan**:
+    - `requests`
+    - `rich`
+- **Python 3.x**.
 
 Jika Anda sudah memiliki Python dan pustaka tersebut, Anda siap menjalankan skrip.
 
