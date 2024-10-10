@@ -114,7 +114,8 @@ def Kumpulkan_Story(cookies: str, reel_ids: str, videos: bool):
         response2 = session.get('https://www.instagram.com/api/v1/feed/reels_media/?reel_ids={}'.format(reel_ids), verify=True)
         if '"candidates":' in response2.text:
             json_response = json.loads(response2.text)
-            candidate_url = re.findall("{'candidates': \\[{'width': .*?, 'height': .*?, 'url': '(.*?)'}", str(json_response))
+            open('Penyimpanan/Index.html', 'w+').write(str(json_response))
+            candidate_url = re.findall(r"{'candidates': \[{'width': .*?, 'height': .*?, 'url': '(.*?)'}", str(json_response))
             for url in candidate_url:
                 if str(url) in LINK:
                     continue
@@ -139,7 +140,7 @@ def Kumpulkan_Story(cookies: str, reel_ids: str, videos: bool):
                 return ('null')
         else:
             return ('null')
-        
+
 def Unduh_Story(url: str, directory_name: str):
     global MAKSIMUM
     try:
@@ -175,7 +176,7 @@ def Unduh_Story(url: str, directory_name: str):
 
 def Main():
     global MAKSIMUM
-    putStrLn("""[bold blue]   _____ _                   _____                           
+    putStrLn(r"""[bold blue]   _____ _                   _____                           
   / ____| |                 |  __ \                          
  | (___ | |_ ___  _ __ _   _| |__) |___  ___  ___ _   _  ___ 
   \___ \| __/ _ \| '__| | | |  _  // _ \/ __|/ __| | | |/ _ \ 
